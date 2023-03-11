@@ -236,6 +236,23 @@ footer p:last-child {
   .splash {
     font-size: 12px;
   }
+  footer {
+    font-size: 5px;
+  }
+  .social li i {
+    font-size: 4px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    padding: 2px;
+  }
+}
+
+/*@media screen and (max-width: 400px) {
+  
+  .splash {
+    font-size: 12px;
+  }
   .social li i {
     font-size: 8px;
     width: 16px;
@@ -243,4 +260,4 @@ footer p:last-child {
     border-radius: 50%;
     padding: 4px;
   }
-}
+}*/
