@@ -224,7 +224,7 @@ footer p:last-child {
     font-size: 9px;
   }
   .splash {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -234,36 +234,36 @@ footer p:last-child {
     max-width: 100%;
   }
   .splash {
-    font-size: 8px;
+    font-size: 14px;
   }
-  footer {
-    font-size: 2px;
+  footer>p {
+    display: none;
   }
   .social li i {
-    font-size: 4px;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    padding: 2px;
+    font-size: 12px;
+    width: 24px;
+    height: 24px;
+    padding: 6px;
   }
-  img.herb {
+  .herb {
     height: 50px;
+    margin: 10px auto 2px;
   }
 }
 
 @media screen and (max-width: 400px) {
   
   .splash {
-    font-size: 6px;
+    font-size: 10px;
+    margin-top: 20px;
   }
-  footer {
-    font-size: 1px;
+  footer>p {
+    display: none;
   }
   .social li i {
-    font-size: 2px;
-    width: 4px;
-    height: 4px;
-    border-radius: 50%;
-    padding: 1px;
+    font-size: 8px;
+    width: 16px;
+    height: 16px;
+    padding: 4px;
   }
 }
