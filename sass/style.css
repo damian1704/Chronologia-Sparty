@@ -245,6 +245,10 @@ footer p:last-child {
     height: 24px;
     padding: 6px;
   }
+  header {
+    margin-bottom: -80px;
+  }
+
   .herb {
     height: 50px;
     margin: 10px auto 2px;
@@ -257,13 +261,19 @@ footer p:last-child {
     font-size: 10px;
     margin-top: 20px;
   }
+
+  header {
+    max-width: 100%;
+    height: 120px;
+  }
+
   footer>p {
     display: none;
   }
   .social li i {
-    font-size: 8px;
-    width: 16px;
-    height: 16px;
-    padding: 4px;
+    font-size: 9px;
+    width: 18px;
+    height: 18px;
+    padding: 4.5px;
   }
 }
