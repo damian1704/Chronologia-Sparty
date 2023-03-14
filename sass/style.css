@@ -235,7 +235,9 @@ footer p:last-child {
   }
   .splash {
     font-size: 14px;
+    margin: 8px auto;
   }
+  
   footer>p {
     display: none;
   }
@@ -245,13 +247,19 @@ footer p:last-child {
     height: 24px;
     padding: 6px;
   }
-  header {
-    margin-bottom: -80px;
-  }
 
+  
   .herb {
     height: 50px;
-    margin: 10px auto 2px;
+    margin-bottom: -40px;
+  }
+
+  .popup_arrow--left {
+    left:2%;
+  }
+  
+  .popup_arrow--right {
+    right:2%;
   }
 }
 
@@ -268,7 +276,7 @@ footer p:last-child {
   }
 
   .herb {
-    margin:auto -10px;
+    margin: auto -10px;
   }
 
   footer>p {
@@ -279,5 +287,13 @@ footer p:last-child {
     width: 20px;
     height: 20px;
     padding: 5px;
+  }
+
+  .popup_arrow--left {
+    left:2%;
+  }
+  
+  .popup_arrow--right {
+    right:2%;
   }
 }
